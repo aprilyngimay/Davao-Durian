@@ -1,0 +1,25 @@
+[debug] [2018-11-15T03:23:40.908Z] ----------------------------------------------------------------------
+[debug] [2018-11-15T03:23:40.911Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kenneth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-15T03:23:40.911Z] CLI Version:   6.1.0
+[debug] [2018-11-15T03:23:40.911Z] Platform:      win32
+[debug] [2018-11-15T03:23:40.911Z] Node Version:  v8.12.0
+[debug] [2018-11-15T03:23:40.912Z] Time:          Thu Nov 15 2018 11:23:40 GMT+0800 (Taipei Standard Time)
+[debug] [2018-11-15T03:23:40.912Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-15T03:23:40.927Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-15T03:23:40.928Z] > authorizing via signed-in user
+[debug] [2018-11-15T03:23:40.928Z] [iam] checking project u-hackademia-davao-durian for permissions ["firebase.projects.get"]
+[debug] [2018-11-15T03:23:40.931Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/u-hackademia-davao-durian:testIamPermissions  
+
+[debug] [2018-11-15T03:23:42.837Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-15T03:23:42.839Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/u-hackademia-davao-durian  
+ 
+[debug] [2018-11-15T03:23:44.749Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Kenneth\Desktop\Davao-Durian'...
+[info] 
+[debug] [2018-11-15T03:23:44.760Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/695278695243/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-15T03:23:45.713Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
