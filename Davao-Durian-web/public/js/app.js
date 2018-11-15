@@ -7,11 +7,11 @@ $(document).ready(function(){
 		if(Switch == 1){
 			$("status").text("AUTO");
 		} else {
-			$("status").text("OFF")
+			$("status").text("OFF");
 		}
 	});
 
-	$(".ledbtn").click(function(){
+	$(".Switch").click(function(){
 		var firebaseRef = firebase.database().ref('/arduinoDevice/Switch');
 
 		if(Switch == 1){

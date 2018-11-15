@@ -8,25 +8,6 @@
 
 <link rel="stylesheet" type="text/css" href="style/manual.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBsYZUlt-gwhM-vujQ0l7HWFiRC_5M9xko",
-    authDomain: "u-hackademia-davao-durian.firebaseapp.com",
-    databaseURL: "https://u-hackademia-davao-durian.firebaseio.com",
-    projectId: "u-hackademia-davao-durian",
-    storageBucket: "u-hackademia-davao-durian.appspot.com",
-    messagingSenderId: "695278695243"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase-database.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase-firestore.js"></script>
-
 </head>
 <body>
   <nav class="nav-wraper green accent-4">
@@ -129,7 +110,25 @@
   </main>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase-app.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBsYZUlt-gwhM-vujQ0l7HWFiRC_5M9xko",
+    authDomain: "u-hackademia-davao-durian.firebaseapp.com",
+    databaseURL: "https://u-hackademia-davao-durian.firebaseio.com",
+    projectId: "u-hackademia-davao-durian",
+    storageBucket: "u-hackademia-davao-durian.appspot.com",
+    messagingSenderId: "695278695243"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase-database.js"></script>
 
 <script>
 $(document).ready(function(){
