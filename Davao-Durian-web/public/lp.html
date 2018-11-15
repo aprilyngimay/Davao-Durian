@@ -26,6 +26,26 @@
     <li><a href="login.html">Login</a></li>
   </ul>
 
+<div class="container center">
+  <h5>Device Status</h5>
+    <button class="sWitch btn btn-large waves-effect green "><h6 class="status"></h6></button>
+</div>
+<div class="section">
+  <div class="container center section">
+  <a class='dropdown-trigger1 btn' href='#' data-target='dropdown1'>Select Device</a>
+  <a class='dropdown-trigger2 btn' href='#' data-target='dropdown2'>add device</a>
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+    </ul>
+    <ul id='dropdown2' class='dropdown-content'>
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+    </ul>
+  </div>
+</div>
+    
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -54,6 +74,8 @@
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });
+$('.dropdown-trigger1').dropdown();
+$('.dropdown-trigger2').dropdown();
 </script>
 
 </body>
