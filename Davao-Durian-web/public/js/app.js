@@ -5,13 +5,13 @@ $(document).ready(function(){
 	database.ref('/arduinoDevice/').on('value', function(snap){
 		Switch = snap.val().Switch;
 		if(Switch == 1){
-			$("status").text("AUTO");
+			$(".status").text("AUTO");
 		} else {
-			$("status").text("OFF");
+			$(".status").text("OFF");
 		}
 	});
 
-	$(".Switch").click(function(){
+	$(".sWitch").click(function(){
 		var firebaseRef = firebase.database().ref('/arduinoDevice/Switch');
 
 		if(Switch == 1){
